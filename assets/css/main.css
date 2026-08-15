@@ -3389,16 +3389,13 @@ input, select, textarea {
 			font-size: 5rem;
 			line-height: 1;
 		}
-	@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+			#intro h1 {
+				font-size: 2rem;
+				white-space: nowrap;
+			}
+		}
 
-    #intro h1 {
-        font-size: 1.8rem;
-        line-height: 1.1;
-        white-space: nowrap;
-        letter-spacing: 0.03em;
-    }
-
-}
 
 
 		#intro p {
