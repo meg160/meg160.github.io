@@ -3391,12 +3391,14 @@ input, select, textarea {
 		}
 	@media screen and (max-width: 480px) {
 
-			#intro h1 {
-				font-size: 2rem !important;
-				line-height: 1.1 !important;
-				white-space: nowrap !important;
-				width: auto !important;
-			}
+    #intro h1 {
+        font-size: 1.8rem;
+        line-height: 1.1;
+        white-space: nowrap;
+        letter-spacing: 0.03em;
+    }
+
+}
 
 
 		#intro p {
